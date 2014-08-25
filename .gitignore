@@ -16,6 +16,11 @@ gen/
 .gradle/
 build/
 
+# My local backup
+backup-graphic/
+backup-screenshots/
+backup-sources/
+
 # Local configuration file (sdk path, etc)
 local.properties
 

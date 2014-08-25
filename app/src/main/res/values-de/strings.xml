@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+
+    <string name="app_name">Wettervorhersage</string>
+
+    <string name="action_settings">Einstellungen</string>
+    <string name="action_map">Lokalisierung</string>
+    <string name="action_share">Aktie</string>
+    <string name="action_refresh">Erfrischen</string>
+
+    <string name="title_activity_detail">Details</string>
+    <string name="title_activity_settings">Einstellungen</string>
+
+    <string name="pref_location_label">Lokalisierung</string>
+
+    <string name="pref_last_notification">last_sync</string>
+
+    <string name="format_notification">
+        Wetter: <xliff:g id="condition">%1$s</xliff:g> Hoch: <xliff:g id="high">%2$s</xliff:g>
+        Niedrig: <xliff:g id="low">%3$s</xliff:g>
+    </string>
+
+    <string name="pref_enable_notifications_label">Benachrichtigungen</string>
+
+    <string name="pref_enable_notifications_true">Aktiviert</string>
+    <string name="pref_enable_notifications_false">Aus</string>
+
+    <string name="pref_units_label">Einheiten Temperaturen</string>
+
+    <string name="pref_units_label_metric">Metrisch</string>
+
+    <string name="pref_units_label_imperial">Kaiserlich</string>
+
+    <string name="today">Heute</string>
+
+    <string name="tomorrow">Morgen</string>
+
+    <string name="format_full_friendly_date">
+        <xliff:g id="month">%1$s</xliff:g>, <xliff:g id="day">%2$s</xliff:g>
+    </string>
+
+    <string name="format_temperature"><xliff:g id="temp">%1.0f</xliff:g>\u00B0</string>
+
+    <string name="format_wind_mph">
+        Wind: <xliff:g id="speed">%1$1.0f</xliff:g> mph <xliff:g id="direction">%2$s</xliff:g>
+    </string>
+    <string name="format_wind_kmh">
+        Wind: <xliff:g id="speed">%1$1.0f</xliff:g> km/h <xliff:g id="direction">%2$s</xliff:g>
+    </string>
+
+    <string name="format_pressure">Druck: <xliff:g id="pressure">%1.0f</xliff:g> hPa</string>
+
+    <string name="format_humidity">Luftfeuchtigkeit: <xliff:g id="humidity">%1.0f</xliff:g> %%</string>
+
+    <string name="format_share">
+        Wetter für <xliff:g id="date">%1$s</xliff:g> in <xliff:g id="location">%2$s</xliff:g>:
+        Ein Hoch von <xliff:g id="high">%3$s</xliff:g> und Tief von
+        <xliff:g id="low">%4$s</xliff:g></string>
+</resources>
