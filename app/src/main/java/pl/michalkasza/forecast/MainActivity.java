@@ -12,6 +12,8 @@ import android.view.MenuItem;
 
 import pl.michalkasza.forecast.sync.SunshineSyncAdapter;
 
+// I already found nice VPN comparasion list and I just thought - for now it's the best place to save it:
+// https://docs.google.com/spreadsheets/d/1FJTvWT5RHFSYuEoFVpAeQjuQPU4BVzbOigT0xebxTOw/htmlview?sle=true#gid=0
 public class MainActivity extends ActionBarActivity implements ForecastFragment.Callback {
 
     private final String LOG_TAG = MainActivity.class.getSimpleName();
